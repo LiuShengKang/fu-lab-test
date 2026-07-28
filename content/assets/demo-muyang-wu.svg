@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Fictional illustrated research team member">
+  <defs><linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#d9e6c9"/><stop offset="1" stop-color="#9ebe89"/></linearGradient></defs>
+  <rect width="800" height="1000" fill="url(#bg)"/><path d="M92 262c62-136 160-182 294-142M708 110c-81 14-140 69-176 165" fill="none" stroke="#fff" stroke-width="14" opacity=".25"/><circle cx="102" cy="276" r="19" fill="#fff" opacity=".35"/>
+  <path d="M142 1000c28-219 111-328 258-328s230 109 258 328" fill="#315545"/><path d="M322 640h156l-12 118-66 52-66-52z" fill="#c48563"/><ellipse cx="400" cy="428" rx="173" ry="220" fill="#d59570"/>
+  <path d="M227 417c-15-185 62-288 184-288 127 0 191 99 165 281-56-31-100-80-131-148-60 60-133 96-218 112z" fill="#27342f"/><path d="M270 411c21-18 51-19 75-2M455 409c24-17 53-15 75 4" fill="none" stroke="#382925" stroke-width="11" stroke-linecap="round"/><ellipse cx="310" cy="448" rx="11" ry="14" fill="#26332f"/><ellipse cx="490" cy="448" rx="11" ry="14" fill="#26332f"/>
+  <path d="M368 534c22 15 44 15 65 0" fill="none" stroke="#8d4d48" stroke-width="11" stroke-linecap="round"/><path d="M329 674l71 136 71-136 103 67-29 259H255l-29-259z" fill="#f2f6ee"/><path d="M400 810v190" stroke="#b2cba1" stroke-width="8"/>
+</svg>

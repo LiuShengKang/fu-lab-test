@@ -1,0 +1,21 @@
+# dependencies
+/node_modules
+/.npm-cache
+
+# Next.js and static output
+/.next
+/.next-build
+/.next-final
+/.build-validation-*
+/out
+/public/content-assets
+
+# local files
+.DS_Store
+*.log
+*.tsbuildinfo
+.env*
+
+# local reference project build artifacts
+/scholar-lite-main/node_modules
+/scholar-lite-main/dist

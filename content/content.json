@@ -1,0 +1,1157 @@
+{
+  "首页": {
+    "_说明": "配置网站基础信息、导航、首页主视觉、负责人简介、教育经历和首页统计数字。",
+    "_编辑帮助": [
+      "网站名称、页面简介、网站地址和资料来源不需要配置，页面与部署环境会自动处理。",
+      "导航菜单按照数组顺序显示；导航名称的 en 用于识别对应页面，请保留现有英文名称。",
+      "首页主标题、首页副标题和首页统计属于首页展示内容，与负责人信息分开维护。",
+      "负责人信息中的 任职单位 统一维护校内任职和学术任职，每一项都要同时填写 zh 和 en。",
+      "负责人头像放入 assets/，头像字段使用 /content/assets/文件名；如图片位于 assets/team/，则填写 /content/assets/team/文件名。"
+    ],
+    "网站简称": "Fu Lab",
+    "导航菜单": [
+      {
+        "导航名称": {
+          "zh": "首页",
+          "en": "Home"
+        }
+      },
+      {
+        "导航名称": {
+          "zh": "研究方向",
+          "en": "Research"
+        }
+      },
+      {
+        "导航名称": {
+          "zh": "代表成果",
+          "en": "Publications"
+        }
+      },
+      {
+        "导航名称": {
+          "zh": "科研项目",
+          "en": "Projects"
+        }
+      },
+      {
+        "导航名称": {
+          "zh": "团队成员",
+          "en": "Members"
+        }
+      },
+      {
+        "导航名称": {
+          "zh": "加入我们",
+          "en": "Join Us"
+        }
+      }
+    ],
+    "首页主标题": {
+      "zh": "用人工智能理解生命，设计更精准的医学干预",
+      "en": "Understanding life with AI, designing more precise medical interventions"
+    },
+    "首页副标题": {
+      "zh": "聚焦 AI4Science、高性能计算与生物医学交叉研究，从分子机制解析走向药物和抗原抗体的理性设计。",
+      "en": "Our research connects AI for Science, high-performance computing and biomedicine—from molecular mechanisms to rational drug, antigen and antibody design."
+    },
+    "首页统计": [
+      {
+        "数量": "20+",
+        "类别": {
+          "zh": "发表论文",
+          "en": "Publications"
+        }
+      },
+      {
+        "数量": "7",
+        "类别": {
+          "zh": "科研项目",
+          "en": "Research Projects"
+        }
+      },
+      {
+        "数量": "5",
+        "类别": {
+          "zh": "核心研究方向",
+          "en": "Research Themes"
+        }
+      }
+    ],
+    "负责人信息": {
+      "名称": {
+        "zh": "付蕾",
+        "en": "Lei Fu"
+      },
+      "角色": {
+        "zh": "研究员",
+        "en": "Research Professor"
+      },
+      "导师类别": {
+        "zh": "硕士生导师",
+        "en": "Master's Supervisor"
+      },
+      "头像": "/content/assets/lei-fu.png",
+      "邮箱": "leifu@szu.edu.cn",
+      "电话": "18811570587",
+      "办公室": {
+        "zh": "沧海校区致信楼 N602",
+        "en": "Room N602, Zhixin Building, Canghai Campus"
+      },
+       "个人简介": {
+        "zh": "付蕾研究员长期开展生命科学、医学、药学与材料等多学科交叉领域的 AI4Science 研究，结合高性能计算与人工智能，研究肿瘤免疫分子机理、蛋白质互作、生物大分子机制、抗原肽与抗体优化，以及人工智能辅助药物理性设计。在 Journal of Clinical Investigation、Nature Communications、Journal of Medicinal Chemistry、Briefings in Bioinformatics、Journal of Physical Chemistry Letters、Biophysical Journal 等期刊发表论文 20 余篇。",
+        "en": "Lei Fu conducts interdisciplinary AI for Science research spanning life science, medicine, pharmacy and materials. Her work combines high-performance computing and artificial intelligence to study molecular mechanisms in tumor immunity, protein interactions, biomolecular mechanisms, antigen peptide and antibody optimization, and AI-assisted rational drug design. She has published more than 20 papers in journals including Journal of Clinical Investigation, Nature Communications, Journal of Medicinal Chemistry, Briefings in Bioinformatics, Journal of Physical Chemistry Letters and Biophysical Journal."
+      },
+      "任职单位": [
+        {
+          "zh": "深圳大学电子与信息工程学院硕士生导师",
+          "en": "Master's Supervisor, College of Electronics and Information Engineering, Shenzhen University"
+        },
+        {
+          "zh": "深圳大学附属华南医院研究员",
+          "en": "Research Professor, South China Hospital, Shenzhen University"
+        },
+        {
+          "zh": "深圳大学附属华南医院医学人工智能所常务副所长",
+          "en": "Executive Deputy Director, Institute of Medical Artificial Intelligence, South China Hospital"
+        },
+        {
+          "zh": "中国电子学会智慧医疗分会委员",
+          "en": "Committee Member, Smart Healthcare Branch of the Chinese Institute of Electronics"
+        },
+        {
+          "zh": "《Interdisciplinary Sciences: Computational Life Sciences》青年编委（JCR Q1）",
+          "en": "Young Editorial Board Member, Interdisciplinary Sciences: Computational Life Sciences (JCR Q1)"
+        },
+        {
+          "zh": "《Artificial Intelligence and Proactive Health》青年编委",
+          "en": "Young Editorial Board Member, Artificial Intelligence and Proactive Health"
+        }
+      ],
+     
+      "教育经历": [
+        {
+          "时间": {
+            "zh": "2021",
+            "en": "2021"
+          },
+          "单位": {
+            "zh": "北京师范大学",
+            "en": "Beijing Normal University"
+          },
+          "说明": {
+            "zh": "博士毕业于方维海院士团队",
+            "en": "Ph.D. in the research group of Academician Weihai Fang"
+          }
+        },
+        {
+          "时间": {
+            "zh": "2019—2020",
+            "en": "2019—2020"
+          },
+          "单位": {
+            "zh": "Boston University",
+            "en": "Boston University"
+          },
+          "说明": {
+            "zh": "国家留学基金委资助公派留学，导师 Qiang Cui",
+            "en": "CSC-sponsored visiting scholar with Prof. Qiang Cui"
+          }
+        },
+        {
+          "时间": {
+            "zh": "2016",
+            "en": "2016"
+          },
+          "单位": {
+            "zh": "University of Wisconsin–Madison",
+            "en": "University of Wisconsin–Madison"
+          },
+          "说明": {
+            "zh": "访问学习，导师 Frank A. Weinhold",
+            "en": "Visiting scholar with Prof. Frank A. Weinhold"
+          }
+        },
+        {
+          "时间": {
+            "zh": "博士后阶段",
+            "en": "Postdoctoral stage"
+          },
+          "单位": {
+            "zh": "广州生物医药与健康研究院、罗湖区人民医院与浙江大学",
+            "en": "GIBH, Luohu People's Hospital and Zhejiang University"
+          },
+          "说明": {
+            "zh": "开展生物医药与计算研究工作",
+            "en": "Research in biomedicine and computational science"
+          }
+        }
+      ]
+    }
+  },
+  "研究方向": {
+    "_说明": "配置研究方向页面及首页研究方向卡片，内容按数组顺序显示。",
+    "_编辑帮助": [
+      "每个方向只需要同时填写 方向名称、方向简介 和 关键词 的 zh/en。",
+      "链接为可选字段；需要链接时填写完整的 http:// 或 https:// 地址，点击该方向会在新窗口打开；不需要时保留空字符串即可。",
+      "复制一个完整对象即可新增研究方向；页面定位和卡片颜色由系统按顺序自动生成。",
+      "内容列表中的排列顺序就是网页显示顺序。"
+    ],
+    "内容列表": [
+      {
+        "方向名称": {
+          "zh": "人工智能辅助药物理性设计",
+          "en": "AI-driven Rational Drug Design"
+        },
+        "方向简介": {
+          "zh": "融合生成式人工智能、分子模拟与药效评价，加速候选分子的发现、筛选和优化。",
+          "en": "Integrating generative AI, molecular simulation and efficacy evaluation to accelerate the discovery, screening and optimization of candidate molecules."
+        },
+        "链接": "",
+        "关键词": {
+          "zh": [
+            "AIDD",
+            "分子生成",
+            "虚拟筛选"
+          ],
+          "en": [
+            "AIDD",
+            "Molecular Generation",
+            "Virtual Screening"
+          ]
+        }
+      },
+      {
+        "方向名称": {
+          "zh": "蛋白质设计与生物大分子机制",
+          "en": "Protein Design & Biomolecular Mechanisms"
+        },
+        "方向简介": {
+          "zh": "面向蛋白质互作和构象变化，理解生物大分子机制，并探索蛋白质的智能优化设计。",
+          "en": "Understanding protein interactions and conformational dynamics while exploring intelligent optimization and design of proteins."
+        },
+        "链接": "",
+        "关键词": {
+          "zh": [
+            "蛋白质互作",
+            "构象动力学",
+            "大分子机制"
+          ],
+          "en": [
+            "Protein Interaction",
+            "Conformational Dynamics",
+            "Biomolecules"
+          ]
+        }
+      },
+      {
+        "方向名称": {
+          "zh": "物理与数据驱动的 AI 模型",
+          "en": "Physics- and Data-driven AI"
+        },
+        "方向简介": {
+          "zh": "将物理先验、高性能计算与数据学习结合，构建更可解释、更可靠的生命科学模型。",
+          "en": "Combining physical priors, high-performance computing and data learning to build interpretable and reliable models for life science."
+        },
+        "链接": "",
+        "关键词": {
+          "zh": [
+            "AI4Science",
+            "高性能计算",
+            "物理先验"
+          ],
+          "en": [
+            "AI4Science",
+            "HPC",
+            "Physical Priors"
+          ]
+        }
+      },
+      {
+        "方向名称": {
+          "zh": "肿瘤免疫与抗原抗体设计",
+          "en": "Tumor Immunity & Antigen/Antibody Design"
+        },
+        "方向简介": {
+          "zh": "解析肿瘤免疫中的分子机理，开展抗原肽、抗体及相关免疫干预策略的优化设计。",
+          "en": "Investigating molecular mechanisms in tumor immunity and optimizing antigen peptides, antibodies and related immunological interventions."
+        },
+        "链接": "",
+        "关键词": {
+          "zh": [
+            "肿瘤免疫",
+            "抗原肽",
+            "抗体设计"
+          ],
+          "en": [
+            "Tumor Immunity",
+            "Antigen Peptides",
+            "Antibody Design"
+          ]
+        }
+      },
+      {
+        "方向名称": {
+          "zh": "抗菌肽杀菌机制",
+          "en": "Antimicrobial Peptide Mechanisms"
+        },
+        "方向简介": {
+          "zh": "从膜相互作用和分子尺度揭示抗菌肽作用机制，为耐药感染干预提供理论基础。",
+          "en": "Revealing membrane interactions and molecular mechanisms of antimicrobial peptides to inform interventions against drug-resistant infections."
+        },
+        "链接": "",
+        "关键词": {
+          "zh": [
+            "抗菌肽",
+            "膜机制",
+            "耐药感染"
+          ],
+          "en": [
+            "Antimicrobial Peptides",
+            "Membrane Mechanisms",
+            "AMR"
+          ]
+        }
+      }
+    ]
+  },
+  "代表成果": {
+    "_说明": "配置论文和代表性成果，首页与成果页面共用此列表。",
+    "_编辑帮助": [
+      "首页推荐 为 true 时显示在首页，false 时只显示在成果页。",
+      "论文 标题 通常使用原始英文；作者说明 同时填写中英文。",
+      "年份 必须填写数字；没有作者说明时可以删除该字段。",
+      "访问链接填写完整的 http:// 或 https:// 地址后，点击成果会在新窗口打开；不需要时保留空字符串即可。"
+    ],
+    "内容列表": [
+      {
+        "标题": "CATHPb1, a broad-spectrum and multi-target antibiotic adjuvant to combat drug-resistant bacterial infections",
+        "作者": "Zifan Ye, Xia Wang, Zhouye Xu, Taizhong Wang, Juan Wang, Shuangyu Li, Xiangjin Kong, Jingjing Zhang, Xudong Jiao, Lei Fu*, Yipeng Wang*",
+        "期刊会议": "Science China Life Sciences",
+        "年份": 2026,
+        "发表信息": "2026. IF=9.5",
+        "首页推荐": true,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "通讯作者",
+          "en": "Corresponding author"
+        }
+      },
+      {
+        "标题": "In Silico Optimization of GAD65114-122 Autoantigen for Potential Type 1 Diabetes Antigen-specific Immunotherapy",
+        "作者": "Lei Fu, Kevin Chun Chan, Qinglu Zhong, Damiano Buratto, Song Wu*, Ruhong Zhou*",
+        "期刊会议": "The Journal of Physical Chemistry B",
+        "年份": 2025,
+        "发表信息": "129, 12799–12810",
+        "首页推荐": true,
+        "访问链接": ""
+      },
+      {
+        "标题": "A free energy perturbation-assisted machine learning strategy for mimotope screening in neoantigen-based vaccine design",
+        "作者": "Qinglu Zhong, Kevin C. Chan, Lei Fu, Ruhong Zhou*",
+        "期刊会议": "Briefings in Bioinformatics",
+        "年份": 2025,
+        "发表信息": "26(4), bbaf254",
+        "首页推荐": true,
+        "访问链接": ""
+      },
+      {
+        "标题": "Synergistic antibacterial effects between antimicrobial peptides and cationic peptides are a widespread immune defense strategy in animals",
+        "作者": "Zifan Ye, Lei Fu, Shuangyu Li, Ziying Chen, Jianhong Ouyang, Lianghui Gao*, Yipeng Wang*",
+        "期刊会议": "Nature Communications",
+        "年份": 2024,
+        "发表信息": "15:7319. IF=17.69",
+        "首页推荐": true,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "共同第一作者",
+          "en": "Co-first author"
+        }
+      },
+      {
+        "标题": "1-Deoxynojirimycin as a potential mitochondrial rescue agent for maternally inherited hypertrophic cardiomyopathy",
+        "作者": "Qianqian Zhuang, Fengfeng Guo, Lei Fu, Tilo Kunath, Ruhong Zhou*, Ping Liang*, Zhong Liu*, Qingfeng Yan*",
+        "期刊会议": "Journal of Clinical Investigation",
+        "年份": 2023,
+        "发表信息": "133:e164660. IF=19.456",
+        "首页推荐": true,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "共同第一作者",
+          "en": "Co-first author"
+        }
+      },
+      {
+        "标题": "Conformational cycle of human polyamine transporter ATP13A2",
+        "作者": "Jianqiang Mu, Chenyang Xue, Lei Fu, Mengqi Wu, Xinmeng Chen, Kun Liu, et al.",
+        "期刊会议": "Nature Communications",
+        "年份": 2023,
+        "发表信息": "14:1978. IF=17.69",
+        "首页推荐": true,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "共同第一作者",
+          "en": "Co-first author"
+        }
+      },
+      {
+        "标题": "How Alligator Immune Peptides Kill Gram-Negative Bacteria",
+        "作者": "Xiangyuan Li, Lei Fu, Shan Zhang, Yipeng Wang, Lianghui Gao*",
+        "期刊会议": "International Journal of Molecular Sciences",
+        "年份": 2023,
+        "发表信息": "24:10962",
+        "首页推荐": false,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "共同第一作者",
+          "en": "Co-first author"
+        }
+      },
+      {
+        "标题": "Polymyxins Induce Lipid Scrambling and Disrupt the Homeostasis of Gram-Negative Bacteria Membrane",
+        "作者": "Lei Fu, Xiangyuan Li, Shan Zhang, Yi Dong, Weihai Fang, Lianghui Gao*",
+        "期刊会议": "Biophysical Journal",
+        "年份": 2022,
+        "发表信息": "121:1–13",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Hydrophobicity determines the antimicrobial rate of amphipathic α-helical antimicrobial peptides",
+        "作者": "Minghui Zhang, Jianhong Ouyang, Lei Fu, Fen Zhang, Yan Wang, Xuanjin Luo, et al.",
+        "期刊会议": "Journal of Medicinal Chemistry",
+        "年份": 2022,
+        "发表信息": "65:14701–14720. IF=8.42",
+        "首页推荐": true,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "共同第一作者",
+          "en": "Co-first author"
+        }
+      },
+      {
+        "标题": "Polymyxin B Loosens Lipopolysaccharide Bilayer but Stiffens Phospholipid Bilayer",
+        "作者": "Lei Fu, Mingwei Wan, Shan Zhang, Lianghui Gao*, Weihai Fang",
+        "期刊会议": "Biophysical Journal",
+        "年份": 2020,
+        "发表信息": "118:1–13",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Evaluation of ACE2 Expression In Vivo with Novel 68Ga-Labeled Peptides Originated from the Coronavirus Receptor-Binding Domain",
+        "作者": "Linlin Li, Rongxi Wang, Li He, Hua Guo, Lei Fu, Guochang Wang, et al.",
+        "期刊会议": "ACS Pharmacology & Translational Science",
+        "年份": 2024,
+        "发表信息": "7, 3119–3130",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Relationship between Protein-Induced Membrane Curvature and Membrane Thermal Undulation",
+        "作者": "Xiangyuan Li, Lei Fu, Shan Zhang, Yi Dong, Lianghui Gao*",
+        "期刊会议": "The Journal of Physical Chemistry B",
+        "年份": 2024,
+        "发表信息": "128:515–525",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Equivalent and Complement of the ω-Bonding Model and Charge-Shift Bonding Model",
+        "作者": "Junjie Song, Lei Fu, Hong Li, Yue Su, Qiong Wang, Guiqiu Zhang*, Jin Wang*",
+        "期刊会议": "The Journal of Physical Chemistry Letters",
+        "年份": 2023,
+        "发表信息": "14:5226–5233",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Thermodynamic Driving Forces for Divalent Cations Binding to Zwitterionic Phospholipid Membranes",
+        "作者": "Yi Dong, Lei Fu, Junjie Song, Shan Zhang, Xiangyuan Li, Weihai Fang, Qiang Cui*, Lianghui Gao*",
+        "期刊会议": "The Journal of Physical Chemistry Letters",
+        "年份": 2022,
+        "发表信息": "13:11237–11244",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "The first anionic cathelicidin lacking direct antimicrobial activity but with potent anti-inflammatory and wound healing activities from salamander",
+        "作者": "Xuanjin Luo, Jianhong Ouyang, Yan Wang, Minghui Zhang, Lei Fu, Ning Xiao, et al.",
+        "期刊会议": "Biochimie",
+        "年份": 2021,
+        "发表信息": "191:37",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Structure and Formation Mechanism of Antimicrobial Peptides Temporin B- and L-Induced Tubular Membrane Protrusion",
+        "作者": "Shan Zhang, Ming Ma, Zhuang Shao, Jincheng Zhang, Lei Fu, Xiangyuan Li, Weihai Fang, Lianghui Gao*",
+        "期刊会议": "International Journal of Molecular Sciences",
+        "年份": 2021,
+        "发表信息": "22:11015",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Charge-Shift Bonding in Xenon Hydrides",
+        "作者": "Guiqiu Zhang, Yue Su, Xiaoran Zou, Lei Fu, Junjie Song, Dezhan Chen, Chuanzhi Sun*",
+        "期刊会议": "Frontiers in Chemistry",
+        "年份": 2020,
+        "发表信息": "8:277",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Peripheral Antimicrobial Peptide Gomesin Induces Membrane Protrusion, Folding, and Laceration",
+        "作者": "Shan Zhang, Lei Fu, Mingwei Wan, Junjie Song, Lianghui Gao*, Weihai Fang",
+        "期刊会议": "Langmuir",
+        "年份": 2019,
+        "发表信息": "35:13233–13242",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Peptide-Lipid Interaction Sites Affect Vesicles’ Responses to Antimicrobial Peptides",
+        "作者": "Yu Shi, Mingwei Wan, Lei Fu, Shan Zhang, Shiyuan Wang, Lianghui Gao*, Weihai Fang",
+        "期刊会议": "Biophysical Journal",
+        "年份": 2018,
+        "发表信息": "115:1518–1529",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Understanding and modulating the high-energy properties of noble-gas hydrides from their long-bonding",
+        "作者": "Guiqiu Zhang, Junjie Song, Lei Fu, Kongshuang Tang, Yue Su, Dezhan Chen",
+        "期刊会议": "Physical Chemistry Chemical Physics",
+        "年份": 2018,
+        "发表信息": "20:10231–10239",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Insight into the Bonding Mechanism and the Bonding Covalency in Noble Gas-Noble Metal Halides",
+        "作者": "Guiqiu Zhang, Lei Fu, Hong Li, Xuchan Fan, Dezhan Chen",
+        "期刊会议": "The Journal of Physical Chemistry A",
+        "年份": 2017,
+        "发表信息": "121:5183–5189",
+        "首页推荐": false,
+        "访问链接": ""
+      },
+      {
+        "标题": "Ligand effects due to resonance character in LAuCCH− complexes",
+        "作者": "Guiqiu Zhang, Hui Wang, Huanjing Yue, Hong Li, Shengnan Zhang, Lei Fu",
+        "期刊会议": "Journal of Molecular Modeling",
+        "年份": 2015,
+        "发表信息": "21:159",
+        "首页推荐": false,
+        "访问链接": ""
+      }
+    ]
+  },
+  "科研项目": {
+    "_说明": "配置科研项目，项目按数组顺序显示。",
+    "_编辑帮助": [
+      "项目状态 只能填写 ongoing（在研）或 completed（结题）。",
+      "项目编号 没有时可删除；项目经费 是展示文字。",
+      "访问链接填写完整的 http:// 或 https:// 地址后，点击项目会在新窗口打开；不需要时保留空字符串即可。"
+    ],
+    "内容列表": [
+      {
+        "项目名称": {
+          "zh": "人工智能赋能的复杂疾病系统解析及干预策略研究",
+          "en": "AI-empowered Systems Analysis and Intervention Strategies for Complex Diseases"
+        },
+        "项目来源": {
+          "zh": "深圳市医学研究院｜2025年度深圳市医学研究专项“揭榜挂帅”项目",
+          "en": "Shenzhen Medical Academy of Research and Translation | 2025 Medical Research Program"
+        },
+        "项目编号": "E250200620",
+        "项目周期": {
+          "zh": "2026-01 至 2029-12",
+          "en": "Jan 2026 — Dec 2029"
+        },
+        "项目经费": {
+          "zh": "1000万元",
+          "en": "CNY 10M"
+        },
+        "承担角色": {
+          "zh": "项目骨干",
+          "en": "Key Member"
+        },
+        "项目状态": "ongoing",
+        "访问链接": ""
+      },
+      {
+        "项目名称": {
+          "zh": "面向端侧医疗大模型的部署优化与国产芯片适配技术研发",
+          "en": "Deployment Optimization and Domestic Chip Adaptation for On-device Medical Foundation Models"
+        },
+        "项目来源": {
+          "zh": "深圳市科技创新局｜2025年度重点产业研发计划",
+          "en": "Shenzhen Science and Technology Innovation Bureau | 2025 Key Industrial R&D Program"
+        },
+        "项目编号": "ZDCY20250901110900001",
+        "项目周期": {
+          "zh": "2026-01 至 2028-12",
+          "en": "Jan 2026 — Dec 2028"
+        },
+        "项目经费": {
+          "zh": "500万元",
+          "en": "CNY 5M"
+        },
+        "承担角色": {
+          "zh": "参与",
+          "en": "Participant"
+        },
+        "项目状态": "ongoing",
+        "访问链接": ""
+      },
+      {
+        "项目名称": {
+          "zh": "深圳市医学数字孪生关键技术重点实验室",
+          "en": "Shenzhen Key Laboratory of Medical Digital Twin Technologies"
+        },
+        "项目来源": {
+          "zh": "深圳市科技创新局｜2025年应用研究类",
+          "en": "Shenzhen Science and Technology Innovation Bureau | 2025 Applied Research Program"
+        },
+        "项目周期": {
+          "zh": "2025-12 至 2028-12",
+          "en": "Dec 2025 — Dec 2028"
+        },
+        "项目经费": {
+          "zh": "500万元",
+          "en": "CNY 5M"
+        },
+        "承担角色": {
+          "zh": "骨干成员",
+          "en": "Core Member"
+        },
+        "项目状态": "ongoing",
+        "访问链接": ""
+      },
+      {
+        "项目名称": {
+          "zh": "生成式AI结合多生物模型验证的动态迭代小分子药物预测系统开发",
+          "en": "Dynamic Small-molecule Prediction with Generative AI and Multi-biological-model Validation"
+        },
+        "项目来源": {
+          "zh": "重庆市科技局｜2025年度重庆市自然科学基金创新发展联合基金（重点项目）",
+          "en": "Chongqing Science and Technology Bureau | Joint Natural Science Fund Key Project"
+        },
+        "项目编号": "CSTB2025NSCQLZX0079",
+        "项目周期": {
+          "zh": "2026-01 至 2027-12",
+          "en": "Jan 2026 — Dec 2027"
+        },
+        "项目经费": {
+          "zh": "25万元",
+          "en": "CNY 250K"
+        },
+        "承担角色": {
+          "zh": "项目骨干",
+          "en": "Key Member"
+        },
+        "项目状态": "ongoing",
+        "访问链接": ""
+      },
+      {
+        "项目名称": {
+          "zh": "膀胱癌分子机理研究及早筛与诊疗体系构建",
+          "en": "Molecular Mechanisms, Early Screening and Diagnostic System for Bladder Cancer"
+        },
+        "项目来源": {
+          "zh": "深圳市科技研发基金｜深圳市优秀科技创新人才培养",
+          "en": "Shenzhen Science and Technology R&D Fund | Excellent Innovation Talent Program"
+        },
+        "项目编号": "RCJC20200714114557005",
+        "项目周期": {
+          "zh": "2021-04 至 2026-04",
+          "en": "Apr 2021 — Apr 2026"
+        },
+        "项目经费": {
+          "zh": "450万元",
+          "en": "CNY 4.5M"
+        },
+        "承担角色": {
+          "zh": "参与",
+          "en": "Participant"
+        },
+        "项目状态": "ongoing",
+        "访问链接": ""
+      },
+      {
+        "项目名称": {
+          "zh": "“计算+”智能化免疫抗原肽的设计与应用",
+          "en": "Computational Design and Application of Intelligent Immune Antigen Peptides"
+        },
+        "项目来源": {
+          "zh": "上海人工智能实验室｜科研项目",
+          "en": "Shanghai Artificial Intelligence Laboratory | Research Project"
+        },
+        "项目编号": "P22KN00272",
+        "项目周期": {
+          "zh": "2022-01 至 2023-12",
+          "en": "Jan 2022 — Dec 2023"
+        },
+        "项目经费": {
+          "zh": "500万元",
+          "en": "CNY 5M"
+        },
+        "承担角色": {
+          "zh": "参与",
+          "en": "Participant"
+        },
+        "项目状态": "completed",
+        "访问链接": ""
+      },
+      {
+        "项目名称": {
+          "zh": "基于严格优化方法的生物分子粗粒化力场开发及应用",
+          "en": "Development and Application of Rigorously Optimized Coarse-grained Force Fields for Biomolecules"
+        },
+        "项目来源": {
+          "zh": "国家自然科学基金委员会｜面上项目",
+          "en": "National Natural Science Foundation of China | General Program"
+        },
+        "项目编号": "21973004",
+        "项目周期": {
+          "zh": "2020-01 至 2023-12",
+          "en": "Jan 2020 — Dec 2023"
+        },
+        "项目经费": {
+          "zh": "65万元",
+          "en": "CNY 650K"
+        },
+        "承担角色": {
+          "zh": "参与",
+          "en": "Participant"
+        },
+        "项目状态": "completed",
+        "访问链接": ""
+      }
+    ]
+  },
+  "团队成员": {
+    "_说明": "按自定义层级管理团队成员；每个层级允许配置任意多人，空层级自动隐藏。除付蕾老师外，当前成员均为查看多人排版效果而添加的虚构演示资料。",
+    "_编辑帮助": [
+      "团队层级中的 层级名称 可自由修改为课题组长、导师团队、博士后、研究生等；层级描述可以删除。",
+      "团队层级和成员列表都严格按照数组中的先后顺序显示，无需填写 id 或 order。",
+      "层级名称和成员名称的 en 应保持清晰且不重复，系统会将其作为内部标识。",
+      "邮箱、电话、个人主页和访问链接均可选；访问链接填写完整网址后，点击成员卡片会在新窗口打开。",
+      "头像放在 assets/，头像字段填写 /content/assets/文件名；子目录层级也应原样保留。",
+      "带有 虚构演示成员 标签的资料仅用于预览页面效果，正式发布前请替换或删除。"
+    ],
+    "团队层级": [
+      {
+        "层级名称": {
+          "zh": "课题组长",
+          "en": "Principal Investigator"
+        },
+        "层级描述": {
+          "zh": "负责团队研究方向、人才培养与协同创新。",
+          "en": "Leading the group's research, mentoring and collaborations."
+        },
+        "成员列表": [
+          {
+            "成员名称": {
+              "zh": "付蕾",
+              "en": "Lei Fu"
+            },
+            "身份": {
+              "zh": "研究员 · 硕士生导师",
+              "en": "Research Professor · Master's Supervisor"
+            },
+            "头像": "/content/assets/lei-fu.png",
+            "简介": {
+              "zh": "AI4Science、高性能计算、人工智能辅助药物与蛋白质设计、肿瘤免疫和抗菌肽机制。",
+              "en": "AI for Science, high-performance computing, AI-assisted drug and protein design, tumor immunity and antimicrobial peptide mechanisms."
+            },
+            "标签": [
+              {
+                "zh": "医学人工智能所常务副所长",
+                "en": "Executive Deputy Director"
+              },
+              {
+                "zh": "硕士生导师",
+                "en": "Master's Supervisor"
+              }
+            ],
+            "邮箱": "leifu@szu.edu.cn",
+            "电话": "18811570587",
+            "访问链接": "https://ceie.szu.edu.cn/info/1184/4002.htm"
+          }
+        ]
+      },
+      {
+        "层级名称": {
+          "zh": "导师团队",
+          "en": "Faculty"
+        },
+        "层级描述": {
+          "zh": "共同指导交叉研究课题，协同推进科研与人才培养。",
+          "en": "Co-supervising interdisciplinary research and mentoring team members."
+        },
+        "成员列表": [
+          {
+            "成员名称": {
+              "zh": "周澄（虚构演示）",
+              "en": "Cheng Zhou (Demo)"
+            },
+            "身份": {
+              "zh": "副研究员 · 联合导师",
+              "en": "Associate Research Professor · Co-supervisor"
+            },
+            "头像": "/content/assets/demo-cheng-zhou.svg",
+            "简介": {
+              "zh": "关注计算结构生物学、分子动力学模拟与人工智能辅助药物发现。",
+              "en": "Working on computational structural biology, molecular dynamics and AI-assisted drug discovery."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "结构生物学",
+                "en": "Structural Biology"
+              }
+            ],
+            "访问链接": ""
+          },
+          {
+            "成员名称": {
+              "zh": "宋岚（虚构演示）",
+              "en": "Lan Song (Demo)"
+            },
+            "身份": {
+              "zh": "助理教授 · 联合导师",
+              "en": "Assistant Professor · Co-supervisor"
+            },
+            "头像": "/content/assets/demo-lan-song.svg",
+            "简介": {
+              "zh": "研究多模态医学数据建模、生物医学信号分析与可信人工智能。",
+              "en": "Studying multimodal medical data, biomedical signal analysis and trustworthy AI."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "医学人工智能",
+                "en": "Medical AI"
+              }
+            ],
+            "访问链接": ""
+          }
+        ]
+      },
+      {
+        "层级名称": {
+          "zh": "青年研究人员",
+          "en": "Young Researchers"
+        },
+        "层级描述": {
+          "zh": "围绕团队核心方向开展独立研究与协作攻关。",
+          "en": "Conducting independent and collaborative work across the group's core themes."
+        },
+        "成员列表": [
+          {
+            "成员名称": {
+              "zh": "韩予安（虚构演示）",
+              "en": "Yuan Han (Demo)"
+            },
+            "身份": {
+              "zh": "博士后研究员",
+              "en": "Postdoctoral Researcher"
+            },
+            "头像": "/content/assets/demo-yuan-han.svg",
+            "简介": {
+              "zh": "探索生成式模型在蛋白质结构预测与功能序列设计中的应用。",
+              "en": "Exploring generative models for protein structure prediction and functional sequence design."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "蛋白质设计",
+                "en": "Protein Design"
+              }
+            ],
+            "访问链接": ""
+          },
+          {
+            "成员名称": {
+              "zh": "唐星河（虚构演示）",
+              "en": "Xinghe Tang (Demo)"
+            },
+            "身份": {
+              "zh": "研究助理",
+              "en": "Research Assistant"
+            },
+            "头像": "/content/assets/demo-xinghe-tang.svg",
+            "简介": {
+              "zh": "开发面向生命科学模型训练的高性能计算流程与数据基础设施。",
+              "en": "Developing high-performance workflows and data infrastructure for life-science model training."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "高性能计算",
+                "en": "High-performance Computing"
+              }
+            ],
+            "访问链接": ""
+          }
+        ]
+      },
+      {
+        "层级名称": {
+          "zh": "博士研究生",
+          "en": "PhD Students"
+        },
+        "层级描述": {
+          "zh": "开展具有长期目标的原创性研究课题。",
+          "en": "Pursuing original research projects with long-term goals."
+        },
+        "成员列表": [
+          {
+            "成员名称": {
+              "zh": "陈念（虚构演示）",
+              "en": "Nian Chen (Demo)"
+            },
+            "身份": {
+              "zh": "博士研究生 · 2024级",
+              "en": "PhD Student · Class of 2024"
+            },
+            "头像": "/content/assets/demo-nian-chen.svg",
+            "简介": {
+              "zh": "研究抗菌肽活性预测、序列优化与分子机制解释。",
+              "en": "Researching antimicrobial peptide activity prediction, sequence optimization and mechanisms."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "抗菌肽",
+                "en": "Antimicrobial Peptides"
+              }
+            ],
+            "访问链接": ""
+          },
+          {
+            "成员名称": {
+              "zh": "吴沐阳（虚构演示）",
+              "en": "Muyang Wu (Demo)"
+            },
+            "身份": {
+              "zh": "博士研究生 · 2025级",
+              "en": "PhD Student · Class of 2025"
+            },
+            "头像": "/content/assets/demo-muyang-wu.svg",
+            "简介": {
+              "zh": "面向肿瘤免疫微环境构建多组学表征与可解释预测模型。",
+              "en": "Building multi-omics representations and interpretable models for tumor immune microenvironments."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "肿瘤免疫",
+                "en": "Tumor Immunity"
+              }
+            ],
+            "访问链接": ""
+          }
+        ]
+      },
+      {
+        "层级名称": {
+          "zh": "硕士研究生",
+          "en": "Master's Students"
+        },
+        "层级描述": {
+          "zh": "在交叉课题中训练算法、工程与学术表达能力。",
+          "en": "Building algorithmic, engineering and scholarly skills through interdisciplinary projects."
+        },
+        "成员列表": [
+          {
+            "成员名称": {
+              "zh": "罗一帆（虚构演示）",
+              "en": "Yifan Luo (Demo)"
+            },
+            "身份": {
+              "zh": "硕士研究生 · 2025级",
+              "en": "Master's Student · Class of 2025"
+            },
+            "头像": "/content/assets/demo-yifan-luo.svg",
+            "简介": {
+              "zh": "关注蛋白质语言模型的轻量化微调、评测与下游任务迁移。",
+              "en": "Working on efficient adaptation and evaluation of protein language models."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "蛋白质语言模型",
+                "en": "Protein Language Models"
+              }
+            ],
+            "访问链接": ""
+          },
+          {
+            "成员名称": {
+              "zh": "许知遥（虚构演示）",
+              "en": "Zhiyao Xu (Demo)"
+            },
+            "身份": {
+              "zh": "硕士研究生 · 2026级",
+              "en": "Master's Student · Class of 2026"
+            },
+            "头像": "/content/assets/demo-zhiyao-xu.svg",
+            "简介": {
+              "zh": "研究医学图像与临床文本的多模态对齐及可靠性评估。",
+              "en": "Studying multimodal alignment and reliability assessment for medical images and clinical text."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "多模态学习",
+                "en": "Multimodal Learning"
+              }
+            ],
+            "访问链接": ""
+          }
+        ]
+      },
+      {
+        "层级名称": {
+          "zh": "本科生",
+          "en": "Undergraduate Students"
+        },
+        "层级描述": {
+          "zh": "通过科研训练和毕业设计参与团队开放课题。",
+          "en": "Joining open projects through research training and capstone work."
+        },
+        "成员列表": [
+          {
+            "成员名称": {
+              "zh": "叶青禾（虚构演示）",
+              "en": "Qinghe Ye (Demo)"
+            },
+            "身份": {
+              "zh": "本科生 · 科研训练",
+              "en": "Undergraduate · Research Trainee"
+            },
+            "头像": "/content/assets/demo-qinghe-ye.svg",
+            "简介": {
+              "zh": "参与生物信息数据可视化、基准数据集整理与可复现流程建设。",
+              "en": "Contributing to bioinformatics visualization, benchmark curation and reproducible workflows."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "科研训练",
+                "en": "Research Training"
+              }
+            ],
+            "访问链接": ""
+          }
+        ]
+      },
+      {
+        "层级名称": {
+          "zh": "已毕业成员",
+          "en": "Alumni"
+        },
+        "层级描述": {
+          "zh": "曾在团队完成科研训练并继续投身相关领域。",
+          "en": "Former members continuing their work in related fields."
+        },
+        "成员列表": [
+          {
+            "成员名称": {
+              "zh": "顾明川（虚构演示）",
+              "en": "Mingchuan Gu (Demo)"
+            },
+            "身份": {
+              "zh": "2025届硕士毕业生",
+              "en": "Master's Alumnus · Class of 2025"
+            },
+            "头像": "/content/assets/demo-mingchuan-gu.svg",
+            "简介": {
+              "zh": "毕业课题聚焦分子表征学习，现从事生物信息工程相关工作。",
+              "en": "Completed thesis work on molecular representation learning and now works in bioinformatics engineering."
+            },
+            "标签": [
+              {
+                "zh": "虚构演示成员",
+                "en": "Fictional Demo Profile"
+              },
+              {
+                "zh": "团队校友",
+                "en": "Alumni"
+              }
+            ],
+            "访问链接": ""
+          }
+        ]
+      }
+    ]
+  },
+  "加入我们": {
+    "_说明": "配置中英文招生正文；页面标题、页面简介和 SEO 文案由页面自动提供，无需维护。",
+    "_编辑帮助": [
+      "正文的 zh 和 en 都是 Markdown 内容块数组：每个字符串填写一个标题、段落、列表项或提示项。",
+      "系统会在不同内容块之间自动插入空行，连续的列表项会自动保持为同一个列表，不需要手动添加空字符串。",
+      "支持 Markdown：## 表示标题，- 表示列表项，**文字** 表示加粗，> 表示提示框。",
+      "修改招生方向、要求或联系方式时，请同步更新 zh 和 en 两个数组。"
+    ],
+    "正文": {
+      "zh": [
+        "## 招生方向",
+        "团队面向**新一代电子信息技术**方向招生，重点开展人工智能辅助药物设计、生物医学大模型和智能体、计算生物学研究。",
+        "## 我们期待这样的你",
+        "- 专业课基础扎实，具备较强的业务能力；",
+        "- 精通至少一门编程语言，如 Python、C/C++ 或 Fortran；",
+        "- 具有良好的英语阅读与写作能力；",
+        "- 对人工智能、计算生物学及其交叉研究有浓厚兴趣；",
+        "- 具有良好的动手实践能力、团队合作精神，认真踏实。",
+        "## 联系方式",
+        "申请或咨询请发送个人简历、成绩单和研究兴趣说明至 **leifu@szu.edu.cn**。建议在邮件主题中注明“学生申请 + 姓名 + 学校”。",
+        "> 招生信息依据深圳大学电子与信息工程学院教师主页整理，具体名额和要求请以当年学校招生政策及导师回复为准。"
+      ],
+      "en": [
+        "## Graduate Program",
+        "The group recruits students through the **New-generation Electronic Information Technology** program, with research opportunities in AI-assisted drug design, biomedical foundation models and agents, and computational biology.",
+        "## What We Look For",
+        "- A solid academic foundation and strong problem-solving skills;",
+        "- Proficiency in at least one programming language, such as Python, C/C++ or Fortran;",
+        "- Good English reading and writing skills;",
+        "- A strong interest in artificial intelligence, computational biology and interdisciplinary research;",
+        "- Hands-on ability, teamwork, intellectual curiosity and a dependable work ethic.",
+        "## Contact",
+        "Please send your CV, transcript and a brief statement of research interests to **leifu@szu.edu.cn**. A clear subject line such as “Student Application + Name + University” is recommended.",
+        "> This information is adapted from the official faculty profile. Availability and requirements are subject to the current university admissions policy and the supervisor's confirmation."
+      ]
+    }
+  }
+}

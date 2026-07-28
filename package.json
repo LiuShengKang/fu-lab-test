@@ -1,0 +1,29 @@
+{
+  "name": "fu-lab-profile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/sync-content-assets.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/sync-content-assets.mjs",
+    "build": "next build && node scripts/postprocess-i18n.mjs",
+    "start": "npx serve out",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.2"
+  }
+}
