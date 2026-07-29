@@ -185,7 +185,7 @@
             "zh": "访问学者，导师 Frank A. Weinhold",
             "en": "Visiting scholar with Prof. Frank A. Weinhold"
           }
-        },
+        }
       ]
     }
   },
@@ -325,7 +325,20 @@
     ],
     "内容列表": [
       {
-        "标题": "CATHPb1, a broad-spectrum and multi-target antibiotic adjuvant to combat drug-resistant bacterial infections",
+        "标题": "Generalizable mutation-effect prediction across adaptive immune recognition via unified multimodal framework",
+        "作者": "Rong Han#, Yumeng Zhang#, Xiaohong Liu#, Lei Fu#, Tong Pan, Jing Xu, Xiaoyu Wang, Peidong Zhang, Xuanzhong Chen, Jiesi Lei, Wuyang Lan, Changwei Ji, Shuguang Cui, Song Wu*, Jiangning Song*, Ting Chen*, Guangyu Wang*",
+        "期刊会议": "Nature Machine Intelligence",
+        "年份": 2026,
+        "发表信息": "2026. IF=29.8",
+        "首页推荐": true,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "共同第一作者",
+          "en": "Co-first author"
+        }
+      },
+       {
+        "标题": "Broad synergistic effects of an AMP with multiple antibiotics against drug-resistant bacteria via multifaceted mechanisms",
         "作者": "Zifan Ye, Xia Wang, Zhouye Xu, Taizhong Wang, Juan Wang, Shuangyu Li, Xiangjin Kong, Jingjing Zhang, Xudong Jiao, Lei Fu*, Yipeng Wang*",
         "期刊会议": "Science China Life Sciences",
         "年份": 2026,
@@ -333,8 +346,47 @@
         "首页推荐": true,
         "访问链接": "",
         "作者说明": {
-          "zh": "通讯作者",
-          "en": "Corresponding author"
+          "zh": "共同通讯作者",
+          "en": "Co-Corresponding author"
+        }
+      },
+       {
+        "标题": "Why Polymyxins Loosen Lipopolysaccharides Packing Yet Stiffen the Outer Membrane of Gram-Negative Bacteria―A Crowding Effect in the Headgroup Region",
+        "作者": "Ziying Chen#, Li He#, Xinyuan Zhang, Xiangyuan Li, Shan Zhang, Lei Fu*, and Lianghui Gao*",
+        "期刊会议": "Langmuir",
+        "年份": 2026,
+        "发表信息": "42, 10113−10125.",
+        "首页推荐": true,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "共同通讯作者",
+          "en": "Co-Corresponding author"
+        }
+      },
+      {
+        "标题": "Novel DNJ Derivative Ameliorates Cardiac Hypertrophy by Targeting OPA1 and Restoring Mitochondrial Health",
+        "作者": "Xue Ding#, Yangwei Jiang#, Xiaochen Wang#, Chujun Li, Zhengyi Kong, Lei Fu, Zhaoying Lei, Huajian Cai, Yufei Dong, Chengyu Shi, Xinwan Su, Tilo Kunath, Ziyi Wang, Damiano Buratto, Aifu Lin, Jianzhong Shao, Dong Zhang, Zhong Liu, Ping Liang*, Ruhong Zhou*, Qingfeng Yan*",
+        "期刊会议": "Circulation Research",
+        "年份": 2026,
+        "发表信息": "138 (3), e327407. IF=18.0",
+        "首页推荐": true,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "",
+          "en": ""
+        }
+      },
+   {
+        "标题": "Multi-strategy embedded framework for neoantigen vaccine maturation",
+        "作者": "Guanqiao Zhang#, Yaqi Fu#, Kevin C Chan, Ruofan Jin, Yuxuan Yang, Lei Fu, Ruhong Zhou*",
+        "期刊会议": "Scientific Reports",
+        "年份": 2026,
+        "发表信息": "2026.",
+        "首页推荐": true,
+        "访问链接": "",
+        "作者说明": {
+          "zh": "",
+          "en": ""
         }
       },
       {
@@ -345,6 +397,9 @@
         "发表信息": "129, 12799–12810",
         "首页推荐": true,
         "访问链接": ""
+        "作者说明": {
+          "zh": "第一作者",
+          "en": "first author"
       },
       {
         "标题": "A free energy perturbation-assisted machine learning strategy for mimotope screening in neoantigen-based vaccine design",
@@ -413,8 +468,11 @@
         "期刊会议": "Biophysical Journal",
         "年份": 2022,
         "发表信息": "121:1–13",
-        "首页推荐": false,
+        "首页推荐": true,
         "访问链接": ""
+        "作者说明": {
+          "zh": "第一作者",
+          "en": "first author"
       },
       {
         "标题": "Hydrophobicity determines the antimicrobial rate of amphipathic α-helical antimicrobial peptides",
@@ -435,8 +493,11 @@
         "期刊会议": "Biophysical Journal",
         "年份": 2020,
         "发表信息": "118:1–13",
-        "首页推荐": false,
+        "首页推荐": true,
         "访问链接": ""
+        "作者说明": {
+          "zh": "第一作者",
+          "en": "first author"
       },
       {
         "标题": "Evaluation of ACE2 Expression In Vivo with Novel 68Ga-Labeled Peptides Originated from the Coronavirus Receptor-Binding Domain",
