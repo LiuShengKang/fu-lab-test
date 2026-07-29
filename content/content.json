@@ -8,7 +8,7 @@
       "负责人信息中的 任职单位 统一维护校内任职和学术任职，每一项都要同时填写 zh 和 en。",
       "负责人头像放入 assets/，头像字段使用 /content/assets/文件名；如图片位于 assets/team/，则填写 /content/assets/team/文件名。"
     ],
-    "网站简称": "Fu Lab",
+    "网站简称": "Fulei Lab",
     "导航菜单": [
       {
         "导航名称": {
@@ -48,8 +48,8 @@
       }
     ],
     "首页主标题": {
-      "zh": "用人工智能理解生命，设计更精准的医学干预",
-      "en": "Understanding life with AI, designing more precise medical interventions"
+      "zh": "AI+计算: 用人工智能理解生命，智能医药精准设计",
+      "en": "AI+Computing: Understanding life with Artificial Intelligence, Precision Drug Design through Intelligent Medicine"
     },
     "首页副标题": {
       "zh": "聚焦 AI4Science、高性能计算与生物医学交叉研究，从分子机制解析走向药物和抗原抗体的理性设计。",
@@ -57,7 +57,7 @@
     },
     "首页统计": [
       {
-        "数量": "35+",
+        "数量": "30+",
         "类别": {
           "zh": "发表论文",
           "en": "Publications"
@@ -99,8 +99,8 @@
         "en": "Room N602, Zhixin Building, Canghai Campus"
       },
        "个人简介": {
-        "zh": "付蕾研究员长期开展生命科学、医学、药学与材料等多学科交叉领域的 AI4Science 研究，结合高性能计算与人工智能，研究肿瘤免疫分子机理、蛋白质互作、生物大分子机制、抗原肽与抗体优化，以及人工智能辅助药物理性设计。在 Journal of Clinical Investigation、Nature Communications、Journal of Medicinal Chemistry、Briefings in Bioinformatics、Journal of Physical Chemistry Letters、Biophysical Journal 等期刊发表论文 20 余篇。",
-        "en": "Lei Fu conducts interdisciplinary AI for Science research spanning life science, medicine, pharmacy and materials. Her work combines high-performance computing and artificial intelligence to study molecular mechanisms in tumor immunity, protein interactions, biomolecular mechanisms, antigen peptide and antibody optimization, and AI-assisted rational drug design. She has published more than 20 papers in journals including Journal of Clinical Investigation, Nature Communications, Journal of Medicinal Chemistry, Briefings in Bioinformatics, Journal of Physical Chemistry Letters and Biophysical Journal."
+        "zh": "付蕾研究员长期开展生命科学、医学、药学与材料等多学科交叉领域的 AI4Science 研究，结合高性能计算与人工智能，研究肿瘤免疫分子机理、蛋白质互作、生物大分子机制、抗原肽与抗体优化，以及人工智能辅助药物理性设计。在 Journal of Clinical Investigation、Nature Communications、Journal of Medicinal Chemistry、Briefings in Bioinformatics、Journal of Physical Chemistry Letters、Biophysical Journal 等期刊发表论文 30 余篇。",
+        "en": "Lei Fu conducts interdisciplinary AI for Science research spanning life science, medicine, pharmacy and materials. Her work combines high-performance computing and artificial intelligence to study molecular mechanisms in tumor immunity, protein interactions, biomolecular mechanisms, antigen peptide and antibody optimization, and AI-assisted rational drug design. She has published more than 30 papers in journals including Journal of Clinical Investigation, Nature Communications, Journal of Medicinal Chemistry, Briefings in Bioinformatics, Journal of Physical Chemistry Letters and Biophysical Journal."
       },
       "任职单位": [
         {
@@ -132,16 +132,30 @@
       "教育经历": [
         {
           "时间": {
-            "zh": "2021",
-            "en": "2021"
+            "zh": "博士后，2021-2024",
+            "en": "Postdoctoral, 2021-2024"
+          },
+          "单位": {
+            "zh": "中科院广州生物医药与健康研究院、罗湖区人民医院与浙江大学",
+            "en": "GIBH, Luohu People's Hospital and Zhejiang University"
+          },
+          "说明": {
+            "zh": "开展生物医药与计算研究工作",
+            "en": "Research in biomedicine and computational science"
+          }
+        },
+        {
+          "时间": {
+            "zh": "博士，2021",
+            "en": "Ph.D, 2021"
           },
           "单位": {
             "zh": "北京师范大学",
             "en": "Beijing Normal University"
           },
           "说明": {
-            "zh": "博士毕业于方维海院士团队",
-            "en": "Ph.D. in the research group of Academician Weihai Fang"
+            "zh": "博士毕业于方维海院士团队，导师高靓辉教授",
+            "en": "Ph.D. in the research group of Academician Weihai Fang，supervised by Prof. Lianghui Gao"
           }
         },
         {
@@ -168,24 +182,10 @@
             "en": "University of Wisconsin–Madison"
           },
           "说明": {
-            "zh": "访问学习，导师 Frank A. Weinhold",
+            "zh": "访问学者，导师 Frank A. Weinhold",
             "en": "Visiting scholar with Prof. Frank A. Weinhold"
           }
         },
-        {
-          "时间": {
-            "zh": "博士后阶段",
-            "en": "Postdoctoral stage"
-          },
-          "单位": {
-            "zh": "广州生物医药与健康研究院、罗湖区人民医院与浙江大学",
-            "en": "GIBH, Luohu People's Hospital and Zhejiang University"
-          },
-          "说明": {
-            "zh": "开展生物医药与计算研究工作",
-            "en": "Research in biomedicine and computational science"
-          }
-        }
       ]
     }
   },
