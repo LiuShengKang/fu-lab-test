@@ -3,14 +3,14 @@
 import { Mail, MapPin } from "lucide-react";
 import { usePathname } from "next/navigation";
 
-export function SiteFooter() {
+export function SiteFooter({ shortName }: { shortName: string }) {
   const pathname = usePathname();
   const en = pathname === "/en" || pathname.startsWith("/en/");
   return (
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div>
-          <div className="footer-brand">FU LAB <span>/ AI4SCIENCE</span></div>
+          <div className="footer-brand">{shortName} <span>/ AI4SCIENCE</span></div>
           <p>{en ? "Connecting life science and medicine through molecular mechanisms, computing and artificial intelligence." : "从分子机制出发，以计算和人工智能连接生命科学与医学。"}</p>
         </div>
         <div className="footer-contact">

@@ -19,9 +19,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="zh-CN">
       <body>
-        <SiteHeader name={site.name} navigation={site.navigation} englishNavigation={englishSite.navigation} />
+        <SiteHeader name={site.name} shortName={site.shortName} navigation={site.navigation} englishNavigation={englishSite.navigation} />
         <main>{children}</main>
-        <SiteFooter />
+        <SiteFooter shortName={site.shortName} />
       </body>
     </html>
   );

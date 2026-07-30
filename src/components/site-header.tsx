@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 type NavItem = { label: string; href: string };
 
-export function SiteHeader({ name, navigation, englishNavigation }: { name: string; navigation: NavItem[]; englishNavigation: NavItem[] }) {
+export function SiteHeader({ name, shortName, navigation, englishNavigation }: { name: string; shortName: string; navigation: NavItem[]; englishNavigation: NavItem[] }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -30,7 +30,7 @@ export function SiteHeader({ name, navigation, englishNavigation }: { name: stri
       <div className="shell header-inner">
         <Link href="/" className="brand" aria-label={`${name}首页`} onClick={() => setOpen(false)}>
           <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
-          <span><b>FU LAB</b><small>AI for Life & Medicine</small></span>
+          <span><b>{shortName}</b><small>AI for Life & Medicine</small></span>
         </Link>
         <button className="menu-toggle" type="button" aria-label={open ? "关闭导航" : "打开导航"} aria-expanded={open} onClick={() => setOpen(!open)}>
           {open ? <X size={22} /> : <Menu size={22} />}
